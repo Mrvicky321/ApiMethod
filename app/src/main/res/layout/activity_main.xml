@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/idedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Enter id"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/useridedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="userid"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/titleedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+
+
+    <Button
+        android:id="@+id/todobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetApicalling"/>
+    <Button
+        android:id="@+id/postbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="postsApicalling"/>
+
+    <Button
+        android:id="@+id/putbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="putApicalling"/>
+    <Button
+        android:id="@+id/patchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PatchApicalling"/>
+    <Button
+        android:id="@+id/deletedbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DeletedApicalling"/>
+
+
+
+
+    <ListView
+        android:id="@+id/todolistView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
